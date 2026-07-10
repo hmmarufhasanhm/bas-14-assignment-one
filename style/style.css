@@ -33,3 +33,38 @@ nav{
     padding: 12px 24px;
     border: none;
 }
+/* nav ber collace */
+.div-father{
+    background-image: url(../B14-A01-DevConf-2026/assets/banner.jpg);
+    background-color: rgba(0, 0, 0, 0.45);
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.div-father div p{
+    color: antiquewhite;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 32px;
+}
+.div-father div h1{
+    color: antiquewhite;
+    font-size: 64px;
+    margin-bottom: 20px;
+}
+.div-child{
+    text-align: center;
+    max-width: 700px;
+    margin-top: 7%;
+}
+.div-button{
+    margin-top: 48px;
+}
+.child-div{
+    margin-bottom: 5%;
+}
