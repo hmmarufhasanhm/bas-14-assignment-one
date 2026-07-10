@@ -24,6 +24,10 @@ nav{
     /* width: 100%;
     height: 98px; */
 }
+.all-section{
+    max-width: 1200px;
+    margin: auto;
+}
 .coller-button{
     background-color: #1D4ED8;
     color: #FFFFFF;
@@ -67,4 +71,38 @@ nav{
 }
 .child-div{
     margin-bottom: 5%;
+}
+/* header tag complade */
+.section-img  div p{
+    color:#2563EB;
+    height: 10px;
+}
+.section-img  div img{
+    width: 50%;
+    height: 50%;
+}
+/* .section-img  h1{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+} */
+.section-imag image{
+    /* text-align: center; */
+    margin: 30px 45px;
+    height: 100%;
+}
+.section-imag .div img{
+    width: 100%;
+}
+.imag-item{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.section-imag h1{
+    text-align: center;
+}
+.section-imag div{
+    /* margin-right: 5px; */
+}
+.section-imag{
+    margin: 40px 80px;
 }
