@@ -243,3 +243,68 @@ div ul li::marker{
     text-align: center;
     margin-bottom: 5%;
 }
+/* missing section */
+.missing-contend{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../B14-A01-DevConf-2026/assets/pexels-mikhail-nilov-7988079.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    margin-top: 20px;
+}
+.main-contend{
+    width: 70%;
+    text-align: center;
+    color: whitesmoke;
+}
+.main-contend h2{
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+.main-contend p{
+    font-size: 20px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+.main-contend h4{
+    font-size: 25px;
+}
+.main-contend button{
+    margin-top: 25px;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 10px;
+    background-color: #2563EB;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.main-contend button:hover{
+    background-color: #1D4ED8;
+}
+.footer-div{
+    background-color: #0D1B2A;
+    padding: 20px 50px;
+}
+.child-div ul li{
+    list-style: none;
+}
+.child-div ul{
+    display: flex;
+    gap: 20px;
+    color: white;
+}
+.child-div h5{
+    color: white;
+    font-size: 15px;
+}
+.child-div{
+    display: flex;
+    padding-top: 5%;
+    align-items: center;
+    justify-content: space-between;
+}
