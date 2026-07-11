@@ -108,7 +108,7 @@ nav{
     color: #575757;
 }
 .div-one{
-    background-color: #FFFFFF;
+    background-color: #E5E7EB;
     color: #333333;
     margin-left: 30px;
     padding: 32px;
@@ -116,21 +116,31 @@ nav{
     border-radius: 15px;
     width: 350px;
 }
+.div-one hr{
+    border: none;
+    border-top: 1px solid #20c50d;
+    margin:20px 0 ;
+}
 div ul li::marker{
     color: blue;
 }
 .div-two{
     background-color: #0D1B2A;
-    color: #FFFFFF;
+    color: #333333;
+    margin-left: 30px;
+    padding: 32px;
+    border: 1px solid white;
+    border-radius: 15px;
+    width: 350px;
 }
-.div-one p{
+.div-one h4{
     color:#888888 ;
     font-size: 15px;
     margin-bottom: 13px;
 }
 .div-one h2{
     font-size: 50px;
-    color: #0D1B2A;
+    color:#0D1B2A;
     margin-bottom: 15px;
 }
 .div-one ul{
@@ -139,13 +149,97 @@ div ul li::marker{
 }
 .div-one ul li{
     margin-bottom: 10px;
-    color: #23c553;
+    color: #333333;
 }
-div-one button{
+.div-one button{
     width: 100%;
     color: white;
     background-color: #20c50d;
     border: none;
     border-radius: 10px;
     padding: 15px;
+}
+.div-two ul li{
+    margin-bottom: 10px;
+    color: #333333;
+}
+.div-two ul{
+    padding-left: 23px;
+    margin-bottom: 10px;
+}
+.div-two hr{
+    border: none;
+    border-top: 1px solid #20c50d;
+    margin:20px 0 ;
+}
+.div-two h2{
+       font-size: 50px;
+    color:white;
+    margin-bottom: 15px;
+}
+
+.div-two h4{
+     color:#888888 ;
+    font-size: 15px;
+    margin-bottom: 13px;
+}
+.div-two button{
+    width: 100%;
+    color: white;
+    background-color: #20c50d;
+    border: none;
+    border-radius: 10px;
+    padding: 15px; 
+    margin-top: 25px;
+}
+.div-three{
+     background-color: #E5E7EB;
+    color: #333333;
+    margin-left: 30px;
+    padding: 32px;
+    border: 1px solid white;
+    border-radius: 15px;
+    width: 350px;
+}
+.div-three ul{
+    padding: 23px;
+    margin-bottom: 10px;
+}
+.div-three ul li{
+    margin-bottom: 10px;
+    color: #333333;
+}
+.div-two hr{
+    border: none;
+    border-top: 1px solid #20c50d;
+    margin:20px 0 ;
+}
+.div-three h2{
+      font-size: 50px;
+    color: #0D1B2A;
+    margin-bottom: 15px;
+}
+.div-three h4{
+     color:#888888 ;
+    font-size: 15px;
+    margin-bottom: 13px;
+}
+.div-three button{
+     width: 100%;
+    color: white;
+    background-color: #20c50d;
+    border: none;
+    border-radius: 10px;
+    padding: 15px; 
+}
+.div-past{
+    display: flex;
+}
+.main-section h1{
+    text-align:center;
+    margin-bottom:10px;
+}
+.main-section p{
+    text-align: center;
+    margin-bottom: 5%;
 }
