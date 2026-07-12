@@ -163,7 +163,7 @@ div ul li::marker{
 }
 .div-two ul li{
     margin-bottom: 10px;
-    color: #333333;
+    color:white;
 }
 .div-two ul{
     padding-left: 23px;
@@ -288,10 +288,6 @@ div ul li::marker{
 .main-contend button:hover{
     background-color: #1D4ED8;
 }
-.footer-div{
-    background-color: #0D1B2A;
-    padding: 20px 50px;
-}
 .child-div ul li{
     list-style: none;
 }
@@ -306,7 +302,30 @@ div ul li::marker{
 }
 .child-div{
     display: flex;
-    padding-top: 5%;
+    padding-top: 0;
     align-items: center;
     justify-content: space-between;
 }
+footer{
+    background-color: #0D1B2A;
+    padding: 20px 50px;
+}
+/* .div-prend{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 20px;
+} */
+ .prim ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ .prim ul li{
+    list-style: none;
+ }
+ .prim hr{
+      border: none;
+    border-top: 1px solid #20c50d;
+    margin:20px 0 ;
+ }

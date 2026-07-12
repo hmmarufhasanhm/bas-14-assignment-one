@@ -1,0 +1,2 @@
+Creat a simple responsive placeholder section for a conference section for a conference website using html and css.
+The sectionshould containu a heading (h1) ,a short paragraph(p) an unordered list (ul) with list item(li) an a button
